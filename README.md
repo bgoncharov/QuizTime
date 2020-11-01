@@ -17,7 +17,7 @@ Mandatory Part:
 
 Extra:
 
-- [x] User have just two attmpts for each qustion.
+- [x] Users have just two attmpts for each qustion(shown under the buttons).
 
 Data Fetching:
 
