@@ -10,8 +10,6 @@ Simple trivia game. Every time you have only 10 questions. Every question has 4 
 
 - [x] A round of trivia has 10 Questions
 - [x] All questions are multiple-choice questions
-- [x] Score updates in real time
-
 - [x] A user can view questions.
 - [x] Questions with their multiple choice options must be displayed one at a time. Questions should not repeat in a round.
 - [x] A user can select only 1 answer out of the 4 possible answers.
@@ -19,6 +17,7 @@ Simple trivia game. Every time you have only 10 questions. Every question has 4 
 
 **Extra:**
 
+- [x] Score updates in real time
 - [x] Users have just two attmpts for each qustion(shown under the buttons).
 
 Data Fetching:
