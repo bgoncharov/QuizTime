@@ -1,6 +1,6 @@
 # Tandem Code Challenge
 
-Stack: Swift, UIKit
+Stack: Swift, UIKit.
 
 <img src="https://github.com/bgoncharov/TandemCodeChallange/blob/main/Media/preview.gif" width="300">
 
