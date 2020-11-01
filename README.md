@@ -1,7 +1,7 @@
 # Tandem Code Challenge
 
 
-![Demo](https://github.com/bgoncharov/TandemCodeChallange/blob/main/Media/preview.gif)
+![Demo](https://github.com/bgoncharov/TandemCodeChallange/blob/main/Media/preview.gif | width=300)
 
 
 
