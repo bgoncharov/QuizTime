@@ -53,4 +53,4 @@ private func decodeJSON<T: Decodable>(type: T.Type, with data: Data, completion:
             completion(.failure(jsonError))
         }
     }
-    ```
+```
