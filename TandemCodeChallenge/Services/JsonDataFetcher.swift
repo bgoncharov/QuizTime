@@ -36,13 +36,5 @@ class JsonDataFetcher {
         } catch let jsonError {
             completion(.failure(jsonError))
         }
-
-//        do {
-//            let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
-//            print(json)
-//        } catch let error {
-//
-//        }
-
     }
 }

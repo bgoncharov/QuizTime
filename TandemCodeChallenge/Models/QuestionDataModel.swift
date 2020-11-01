@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Question: Decodable {
+struct Question: Decodable, Equatable {
     var question: String
     var incorrect = [String]()
     var correct: String
