@@ -1,8 +1,8 @@
 # Quiz Time game
 
-Stack: Swift, UIKit.
+**Stack:** Swift, UIKit. Covered with tests.
 
-<img src="https://github.com/bgoncharov/TandemCodeChallange/blob/main/Media/preview_iphone11.gif" width="250"> <img src="https://github.com/bgoncharov/TandemCodeChallange/blob/main/Media/preview_iphonese.gif" width="250">
+<img src="https://github.com/bgoncharov/TandemCodeChallange/blob/main/Media/preview_iphone11.gif" width="250">        <img src="https://github.com/bgoncharov/TandemCodeChallange/blob/main/Media/preview_iphonese.gif" width="250">
 
 Simple trivia game. Every time you have only 10 questions. Every question has 4 answers with just one correct answer. You have only two attempts to find the correct one. When you press the button with the wrong answer then the border color set to red, otherwise green. If you don't find the correct answer then you'll see which answer is correct. All questions fetched from a JSON file. 
 
