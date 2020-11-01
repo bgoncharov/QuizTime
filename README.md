@@ -1,7 +1,9 @@
 # Tandem Code Challenge
 
 
-![Demo](https://github.com/bgoncharov/TandemCodeChallange/blob/main/Media/preview.gif | width=300)
+
+
+<img src="https://github.com/bgoncharov/TandemCodeChallange/blob/main/Media/preview.gif" width="200">
 
 
 
