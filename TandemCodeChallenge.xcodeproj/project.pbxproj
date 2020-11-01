@@ -13,7 +13,6 @@
 		A19CC81825476D5200EBBFC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19CC81625476D5200EBBFC5 /* Main.storyboard */; };
 		A19CC81A25476D5500EBBFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19CC81925476D5500EBBFC5 /* Assets.xcassets */; };
 		A19CC81D25476D5500EBBFC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19CC81B25476D5500EBBFC5 /* LaunchScreen.storyboard */; };
-		A19CC83325476D5500EBBFC5 /* TandemCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19CC83225476D5500EBBFC5 /* TandemCodeChallengeUITests.swift */; };
 		A19CC84425476D7400EBBFC5 /* QuestionDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19CC84325476D7400EBBFC5 /* QuestionDataModel.swift */; };
 		A19CC84D25476DE800EBBFC5 /* JsonDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19CC84C25476DE800EBBFC5 /* JsonDataFetcher.swift */; };
 		A19CC85625476F7500EBBFC5 /* jsonData.json in Resources */ = {isa = PBXBuildFile; fileRef = A19CC85525476F7500EBBFC5 /* jsonData.json */; };
@@ -25,13 +24,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		A19CC82425476D5500EBBFC5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A19CC80525476D5200EBBFC5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A19CC80C25476D5200EBBFC5;
-			remoteInfo = TandemCodeChallenge;
-		};
-		A19CC82F25476D5500EBBFC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A19CC80525476D5200EBBFC5 /* Project object */;
 			proxyType = 1;
@@ -51,9 +43,6 @@
 		A19CC81E25476D5500EBBFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A19CC82325476D5500EBBFC5 /* TandemCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TandemCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19CC82925476D5500EBBFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A19CC82E25476D5500EBBFC5 /* TandemCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TandemCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A19CC83225476D5500EBBFC5 /* TandemCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TandemCodeChallengeUITests.swift; sourceTree = "<group>"; };
-		A19CC83425476D5500EBBFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A19CC84325476D7400EBBFC5 /* QuestionDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionDataModel.swift; sourceTree = "<group>"; };
 		A19CC84C25476DE800EBBFC5 /* JsonDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDataFetcher.swift; sourceTree = "<group>"; };
 		A19CC85525476F7500EBBFC5 /* jsonData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jsonData.json; sourceTree = "<group>"; };
@@ -78,13 +67,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A19CC82B25476D5500EBBFC5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,7 +75,6 @@
 			children = (
 				A19CC80F25476D5200EBBFC5 /* TandemCodeChallenge */,
 				A19CC82625476D5500EBBFC5 /* TandemCodeChallengeTests */,
-				A19CC83125476D5500EBBFC5 /* TandemCodeChallengeUITests */,
 				A19CC80E25476D5200EBBFC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,7 +84,6 @@
 			children = (
 				A19CC80D25476D5200EBBFC5 /* TandemCodeChallenge.app */,
 				A19CC82325476D5500EBBFC5 /* TandemCodeChallengeTests.xctest */,
-				A19CC82E25476D5500EBBFC5 /* TandemCodeChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,15 +113,6 @@
 				A19CC82925476D5500EBBFC5 /* Info.plist */,
 			);
 			path = TandemCodeChallengeTests;
-			sourceTree = "<group>";
-		};
-		A19CC83125476D5500EBBFC5 /* TandemCodeChallengeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A19CC83225476D5500EBBFC5 /* TandemCodeChallengeUITests.swift */,
-				A19CC83425476D5500EBBFC5 /* Info.plist */,
-			);
-			path = TandemCodeChallengeUITests;
 			sourceTree = "<group>";
 		};
 		A19CC84825476D7700EBBFC5 /* Models */ = {
@@ -232,24 +203,6 @@
 			productReference = A19CC82325476D5500EBBFC5 /* TandemCodeChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A19CC82D25476D5500EBBFC5 /* TandemCodeChallengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A19CC83D25476D5500EBBFC5 /* Build configuration list for PBXNativeTarget "TandemCodeChallengeUITests" */;
-			buildPhases = (
-				A19CC82A25476D5500EBBFC5 /* Sources */,
-				A19CC82B25476D5500EBBFC5 /* Frameworks */,
-				A19CC82C25476D5500EBBFC5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A19CC83025476D5500EBBFC5 /* PBXTargetDependency */,
-			);
-			name = TandemCodeChallengeUITests;
-			productName = TandemCodeChallengeUITests;
-			productReference = A19CC82E25476D5500EBBFC5 /* TandemCodeChallengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -263,10 +216,6 @@
 						CreatedOnToolsVersion = 12.1;
 					};
 					A19CC82225476D5500EBBFC5 = {
-						CreatedOnToolsVersion = 12.1;
-						TestTargetID = A19CC80C25476D5200EBBFC5;
-					};
-					A19CC82D25476D5500EBBFC5 = {
 						CreatedOnToolsVersion = 12.1;
 						TestTargetID = A19CC80C25476D5200EBBFC5;
 					};
@@ -287,7 +236,6 @@
 			targets = (
 				A19CC80C25476D5200EBBFC5 /* TandemCodeChallenge */,
 				A19CC82225476D5500EBBFC5 /* TandemCodeChallengeTests */,
-				A19CC82D25476D5500EBBFC5 /* TandemCodeChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,13 +253,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A19CC82125476D5500EBBFC5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A19CC82C25476D5500EBBFC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,14 +285,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A19CC82A25476D5500EBBFC5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A19CC83325476D5500EBBFC5 /* TandemCodeChallengeUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -359,11 +292,6 @@
 			isa = PBXTargetDependency;
 			target = A19CC80C25476D5200EBBFC5 /* TandemCodeChallenge */;
 			targetProxy = A19CC82425476D5500EBBFC5 /* PBXContainerItemProxy */;
-		};
-		A19CC83025476D5500EBBFC5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A19CC80C25476D5200EBBFC5 /* TandemCodeChallenge */;
-			targetProxy = A19CC82F25476D5500EBBFC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -585,46 +513,6 @@
 			};
 			name = Release;
 		};
-		A19CC83E25476D5500EBBFC5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 33SF7T346J;
-				INFOPLIST_FILE = TandemCodeChallengeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.podlodki.TandemCodeChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TandemCodeChallenge;
-			};
-			name = Debug;
-		};
-		A19CC83F25476D5500EBBFC5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 33SF7T346J;
-				INFOPLIST_FILE = TandemCodeChallengeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.podlodki.TandemCodeChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TandemCodeChallenge;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -651,15 +539,6 @@
 			buildConfigurations = (
 				A19CC83B25476D5500EBBFC5 /* Debug */,
 				A19CC83C25476D5500EBBFC5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A19CC83D25476D5500EBBFC5 /* Build configuration list for PBXNativeTarget "TandemCodeChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A19CC83E25476D5500EBBFC5 /* Debug */,
-				A19CC83F25476D5500EBBFC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

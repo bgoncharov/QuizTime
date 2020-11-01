@@ -63,4 +63,24 @@ class GameViewControllerTests: XCTestCase {
         XCTAssertNotNil(controller.answer2Button.titleLabel)
         XCTAssertNotNil(controller.answer3Button.titleLabel)
     }
+    
+    func testThreeButtonsAppear() {
+        if controller.questionsArray?.count == 3 {
+            XCTAssertTrue(controller.answer3Button.isHidden)
+        }
+    }
+    
+    func testFourButtonsAppear() {
+        if controller.questionsArray?.count == 4 {
+            XCTAssertFalse(controller.answer3Button.isHidden)
+        }
+    }
+    
+    func testAttemptOneImageAppear() {
+        XCTAssertFalse(controller.attemptImageViewOne.isHidden)
+    }
+    
+    func testAttemptTwoImageAppear() {
+        XCTAssertFalse(controller.attemptImageViewTwo.isHidden)
+    }
 }

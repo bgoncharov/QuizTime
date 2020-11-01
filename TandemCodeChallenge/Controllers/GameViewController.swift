@@ -165,7 +165,7 @@ class GameViewController: UIViewController {
     }
     
     /// Action for any pressed button
-    @objc private func buttonAction(_ sender: UIButton) {
+    @objc func buttonAction(_ sender: UIButton) {
         greenOrRedBorder(sender, correctAnswer: currentQuestion?.correct ?? "")
         if (isAnswerCorrect(selectedAnswer: sender.currentTitle!)) {
             sender.isEnabled = false
