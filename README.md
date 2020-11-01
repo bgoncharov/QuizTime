@@ -3,7 +3,7 @@
 
 
 
-<img src="https://github.com/bgoncharov/TandemCodeChallange/blob/main/Media/preview.gif" width="200">
+<img src="https://github.com/bgoncharov/TandemCodeChallange/blob/main/Media/preview.gif" width="300">
 
 
 
